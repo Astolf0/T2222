@@ -19,6 +19,12 @@ namespace ConsoleApp3
             return (c);
 
         }
+        static int max(int a, int b)
+        {
+            int c = a + b;
+            return (c);
+
+        }
         static void Main(string[] args)
         {
         }
