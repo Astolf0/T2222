@@ -13,6 +13,12 @@ namespace ConsoleApp3
             double g = a / Convert.ToDouble(b);
             return g;
         }
+        static int min(int a, int b)
+        {
+            int c = a - b;
+            return (c);
+
+        }
         static void Main(string[] args)
         {
         }
