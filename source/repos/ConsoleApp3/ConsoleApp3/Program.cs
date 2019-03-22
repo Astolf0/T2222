@@ -32,6 +32,15 @@ namespace ConsoleApp3
         }
         static void Main(string[] args)
         {
+            int a = 10;
+            int b = 5;
+            Console.WriteLine("{0}", min(a, b));
+            Console.WriteLine("{0}", max(a, b));
+            Console.WriteLine("{0}", razdylitor(ref a, ref b));
+            Console.WriteLine("{0}", umno(ref a, ref b));
+            Console.ReadKey();
+            //
         }
+        
     }
 }
